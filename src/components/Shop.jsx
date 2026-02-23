@@ -81,7 +81,7 @@ const Shop = () => {
                                 {/* Order Button */}
                                 <div className="mt-auto">
                                     <a
-                                        href={`https://wa.me/919709783627?text=Hi!%20I'm%20interested%20in%20ordering%20the%20${encodeURIComponent(product.name)}.`}
+                                        href={`https://wa.me/918709783627?text=Hi!%20I'm%20interested%20in%20ordering%20the%20${encodeURIComponent(product.name)}.`}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="w-full inline-flex justify-center items-center py-2.5 sm:py-3 px-4 border border-floral-green text-floral-green font-body font-medium rounded-xl hover:bg-floral-green hover:text-white transition-all duration-300 group/btn text-sm"

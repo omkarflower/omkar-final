@@ -38,23 +38,23 @@ const Contact = () => {
                         <h3 className="text-2xl sm:text-3xl font-heading mb-6 sm:mb-8 relative z-10">Contact Information</h3>
 
                         <div className="space-y-5 sm:space-y-8 relative z-10">
-                            <a href="tel:+919709783627" className="flex items-start group">
+                            <a href="tel:+918709783627" className="flex items-start group">
                                 <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-cream/10 flex items-center justify-center mr-3 sm:mr-4 group-hover:bg-gold transition-colors flex-shrink-0">
                                     <Phone size={18} className="text-cream group-hover:text-white" />
                                 </div>
                                 <div>
                                     <p className="font-body text-xs sm:text-sm text-cream/70 uppercase tracking-wider mb-0.5 sm:mb-1">Phone</p>
-                                    <p className="font-heading text-lg sm:text-xl">+91 9709783627</p>
+                                    <p className="font-heading text-lg sm:text-xl">+91 8709783627</p>
                                 </div>
                             </a>
 
-                            <a href="https://wa.me/919709783627" target="_blank" rel="noopener noreferrer" className="flex items-start group">
+                            <a href="https://wa.me/918709783627" target="_blank" rel="noopener noreferrer" className="flex items-start group">
                                 <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-cream/10 flex items-center justify-center mr-3 sm:mr-4 group-hover:bg-green-500 transition-colors flex-shrink-0">
                                     <MessageCircle size={18} className="text-cream group-hover:text-white" />
                                 </div>
                                 <div>
                                     <p className="font-body text-xs sm:text-sm text-cream/70 uppercase tracking-wider mb-0.5 sm:mb-1">WhatsApp</p>
-                                    <p className="font-heading text-lg sm:text-xl">+91 9709783627</p>
+                                    <p className="font-heading text-lg sm:text-xl">+91 8709783627</p>
                                 </div>
                             </a>
 

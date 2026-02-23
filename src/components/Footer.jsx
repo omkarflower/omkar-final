@@ -17,7 +17,7 @@ const Footer = () => {
                             <a href="https://www.instagram.com/omkar_flowers_?igsh=NDFseHlkcDJqZ2Yx_" target="_blank" rel="noopener noreferrer" className="w-9 h-9 sm:w-10 sm:h-10 rounded-full border border-cream/20 flex items-center justify-center hover:bg-gold hover:text-white hover:border-gold transition-colors">
                                 <Instagram size={16} />
                             </a>
-                            <a href="https://wa.me/919709783627" target="_blank" rel="noopener noreferrer" className="w-9 h-9 sm:w-10 sm:h-10 rounded-full border border-cream/20 flex items-center justify-center hover:bg-green-500 hover:text-white hover:border-green-500 transition-colors">
+                            <a href="https://wa.me/918709783627" target="_blank" rel="noopener noreferrer" className="w-9 h-9 sm:w-10 sm:h-10 rounded-full border border-cream/20 flex items-center justify-center hover:bg-green-500 hover:text-white hover:border-green-500 transition-colors">
                                 <MessageCircle size={16} />
                             </a>
                         </div>
@@ -45,7 +45,7 @@ const Footer = () => {
                             </li>
                             <li className="flex items-center">
                                 <Phone size={14} className="mr-2 sm:mr-3 text-gold flex-shrink-0" />
-                                <span>+91 9709783627</span>
+                                <span>+91 8709783627</span>
                             </li>
                         </ul>
                     </div>
