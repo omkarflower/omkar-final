@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { AnimatePresence } from 'framer-motion';
+import LoadingScreen from './components/LoadingScreen';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Catalog from './components/Catalog';
@@ -11,19 +13,31 @@ import Footer from './components/Footer';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
-    <div className="bg-cream font-body text-floral-green overflow-x-hidden selection:bg-gold/30 selection:text-floral-green">
-      <Navbar />
-      <Hero />
-      <Catalog />
-      <Shop />
-      <Services />
-      <Gallery />
-      <Features />
-      <Contact />
-      <Footer />
-      <FloatingWhatsApp />
-    </div>
+    <>
+      <AnimatePresence mode="wait">
+        {isLoading && (
+          <LoadingScreen key="loader" onFinish={() => setIsLoading(false)} />
+        )}
+      </AnimatePresence>
+
+      {!isLoading && (
+        <div className="bg-cream font-body text-floral-green overflow-x-hidden selection:bg-gold/30 selection:text-floral-green">
+          <Navbar />
+          <Hero />
+          <Catalog />
+          <Shop />
+          <Services />
+          <Gallery />
+          <Features />
+          <Contact />
+          <Footer />
+          <FloatingWhatsApp />
+        </div>
+      )}
+    </>
   );
 }
 
